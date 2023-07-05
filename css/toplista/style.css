@@ -1,0 +1,1377 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+    background: #ffffff;
+}
+
+nav ul a:hover {
+    background-color: rgba(0,0,0,0.0) !important;
+}
+
+#hover {
+    transition: color 0.3s;
+}
+
+#hover-black {
+    transition: color 0.3s;
+}
+
+#hover-white {
+    transition: color 0.3s;
+}
+
+.main-logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.card .card-tag {
+    position: absolute;
+    top: 14px;
+    padding: 4px;
+    border-radius: 0 2px 2px 0;
+    background: #0000008a;
+}
+
+.content-linear {
+    width: 100%;
+    height: 150px;
+    transition: 1s all;
+}
+
+.content-linear.up-left {
+    background: linear-gradient(177deg, #f44336 43%, transparent 43.34%);
+}
+
+.content-linear.up-left.red-gr {
+    background: linear-gradient(177deg, #f44336 43%, transparent 43.34%);
+}
+
+.content-linear.up-left.pink-gr {
+    background: linear-gradient(177deg, #E91E63 43%, transparent 43.34%);
+}
+
+.content-linear.up-left.purple-gr {
+    background: linear-gradient(177deg, #9C27B0 43%, transparent 43.34%);
+}
+
+.content-linear.up-left.deep-purple-gr {
+    background: linear-gradient(177deg, #673AB7 43%, transparent 43.34%);
+}
+
+.content-linear.up-left.indigo-gr {
+    background: linear-gradient(177deg, #3F51B5 43%, transparent 43.34%);
+}
+
+.content-linear.up-left.blue-gr {
+    background: linear-gradient(177deg, #2196F3 43%, transparent 43.34%);
+}
+
+.content-linear.up-left.light-blue-gr {
+    background: linear-gradient(177deg, #03A9F4 43%, transparent 43.34%);
+}
+
+.content-linear.up-left.cyan-gr {
+    background: linear-gradient(177deg, #00BCD4 43%, transparent 43.34%);
+}
+
+.content-linear.up-left.teal-gr {
+    background: linear-gradient(177deg, #009688 43%, transparent 43.34%);
+}
+
+.content-linear.up-left.green-gr {
+    background: linear-gradient(177deg, #4CAF50 43%, transparent 43.34%);
+}
+
+.content-linear.up-left.light-green-gr {
+    background: linear-gradient(177deg, #8BC34A 43%, transparent 43.34%);
+}
+
+.content-linear.up-left.lime-gr {
+    background: linear-gradient(177deg, #CDDC39 43%, transparent 43.34%);
+}
+
+.content-linear.up-left.yellow-gr {
+    background: linear-gradient(177deg, #FFEB3B 43%, transparent 43.34%);
+}
+
+.content-linear.up-left.amber-gr {
+    background: linear-gradient(177deg, #FFC107 43%, transparent 43.34%);
+}
+
+.content-linear.up-left.orange-gr {
+    background: linear-gradient(177deg, #FF9800 43%, transparent 43.34%);
+}
+
+.content-linear.up-left.deep-orange-gr {
+    background: linear-gradient(177deg, #FF5722 43%, transparent 43.34%);
+}
+
+.content-linear.up-left.brown-gr {
+    background: linear-gradient(177deg, #795548 43%, transparent 43.34%);
+}
+
+.content-linear.up-left.grey-gr {
+    background: linear-gradient(177deg, #9E9E9E 43%, transparent 43.34%);
+}
+
+.content-linear.up-left.blue-grey-gr {
+    background: linear-gradient(177deg, #607D8B 43%, transparent 43.34%);
+}
+
+.content-linear.up-left.black-gr {
+    background: linear-gradient(177deg, #000000 43%, transparent 43.34%);
+}
+
+.content-linear.up-right {
+    background: linear-gradient(183deg, #f44336 43%, transparent 43.34%);
+}
+
+.content-linear.up-right.red-gr {
+    background: linear-gradient(183deg, #f44336 43%, transparent 43.34%);
+}
+
+.content-linear.up-right.pink-gr {
+    background: linear-gradient(183deg, #E91E63 43%, transparent 43.34%);
+}
+
+.content-linear.up-right.purple-gr {
+    background: linear-gradient(183deg, #9C27B0 43%, transparent 43.34%);
+}
+
+.content-linear.up-right.deep-purple-gr {
+    background: linear-gradient(183deg, #673AB7 43%, transparent 43.34%);
+}
+
+.content-linear.up-right.indigo-gr {
+    background: linear-gradient(183deg, #3F51B5 43%, transparent 43.34%);
+}
+
+.content-linear.up-right.blue-gr {
+    background: linear-gradient(183deg, #2196F3 43%, transparent 43.34%);
+}
+
+.content-linear.up-right.light-blue-gr{
+    background: linear-gradient(183deg, #03A9F4 43%, transparent 43.34%);
+}
+
+.content-linear.up-right.cyan-gr {
+    background: linear-gradient(183deg, #00BCD4 43%, transparent 43.34%);
+}
+
+.content-linear.up-right.teal-gr {
+    background: linear-gradient(183deg, #009688 43%, transparent 43.34%);
+}
+
+.content-linear.up-right.green-gr {
+    background: linear-gradient(183deg, #4CAF50 43%, transparent 43.34%);
+}
+
+.content-linear.up-right.light-green-gr {
+    background: linear-gradient(183deg, #8BC34A 43%, transparent 43.34%);
+}
+
+.content-linear.up-right.lime-gr {
+    background: linear-gradient(183deg, #CDDC39 43%, transparent 43.34%);
+}
+
+.content-linear.up-right.yellow-gr {
+    background: linear-gradient(183deg, #FFEB3B 43%, transparent 43.34%);
+}
+
+.content-linear.up-right.amber-gr {
+    background: linear-gradient(183deg, #FFC107 43%, transparent 43.34%);
+}
+
+.content-linear.up-right.orange-gr {
+    background: linear-gradient(183deg, #FF9800 43%, transparent 43.34%);
+}
+
+.content-linear.up-right.deep-orange-gr {
+    background: linear-gradient(183deg, #FF5722 43%, transparent 43.34%);
+}
+
+.content-linear.up-right.brown-gr {
+    background: linear-gradient(183deg, #795548 43%, transparent 43.34%);
+}
+
+.content-linear.up-right.grey-gr {
+    background: linear-gradient(183deg, #9E9E9E 43%, transparent 43.34%);
+}
+
+.content-linear.up-right.blue-grey-gr {
+    background: linear-gradient(183deg, #607D8B 43%, transparent 43.34%);
+}
+
+.content-linear.up-right.black-gr {
+    background: linear-gradient(183deg, #000000 43%, transparent 43.34%);
+}
+
+.content-linear.down-left {
+    background: linear-gradient(3deg, #f44336 43%, transparent 43.34%);
+}
+
+.content-linear.down-left.red-gr {
+    background: linear-gradient(3deg, #f44336 43%, transparent 43.34%);
+}
+
+.content-linear.down-left.pink-gr {
+    background: linear-gradient(3deg, #E91E63 43%, transparent 43.34%);
+}
+
+.content-linear.down-left.purple-gr {
+    background: linear-gradient(3deg, #9C27B0 43%, transparent 43.34%);
+}
+
+.content-linear.down-left.deep-purple-gr {
+    background: linear-gradient(3deg, #673AB7 43%, transparent 43.34%);
+}
+
+.content-linear.down-left.indigo-gr {
+    background: linear-gradient(3deg, #3F51B5 43%, transparent 43.34%);
+}
+
+.content-linear.down-left.blue-gr {
+    background: linear-gradient(3deg, #2196F3 43%, transparent 43.34%);
+}
+
+.content-linear.down-left.light-blue-gr {
+    background: linear-gradient(3deg, #03A9F4 43%, transparent 43.34%);
+}
+
+.content-linear.down-left.cyan-gr {
+    background: linear-gradient(3deg, #00BCD4 43%, transparent 43.34%);
+}
+
+.content-linear.down-left.teal-gr {
+    background: linear-gradient(3deg, #009688 43%, transparent 43.34%);
+}
+
+.content-linear.down-left.green-gr {
+    background: linear-gradient(3deg, #4CAF50 43%, transparent 43.34%);
+}
+
+.content-linear.down-left.light-green-gr {
+    background: linear-gradient(3deg, #8BC34A 43%, transparent 43.34%);
+}
+
+.content-linear.down-left.lime-gr {
+    background: linear-gradient(3deg, #CDDC39 43%, transparent 43.34%);
+}
+
+.content-linear.down-left.yellow-gr {
+    background: linear-gradient(3deg, #FFEB3B 43%, transparent 43.34%);
+}
+
+.content-linear.down-left.amber-gr {
+    background: linear-gradient(3deg, #FFC107 43%, transparent 43.34%);
+}
+
+.content-linear.down-left.orange-gr {
+    background: linear-gradient(3deg, #FF9800 43%, transparent 43.34%);
+}
+
+.content-linear.down-left.deep-orange-gr {
+    background: linear-gradient(3deg, #FF5722 43%, transparent 43.34%);
+}
+
+.content-linear.down-left.brown-gr {
+    background: linear-gradient(3deg, #795548 43%, transparent 43.34%);
+}
+
+.content-linear.down-left.grey-gr {
+    background: linear-gradient(3deg, #9E9E9E 43%, transparent 43.34%);
+}
+
+.content-linear.down-left.blue-grey-gr {
+    background: linear-gradient(3deg, #607D8B 43%, transparent 43.34%);
+}
+
+.content-linear.down-left.black-gr {
+    background: linear-gradient(3deg, #000000 43%, transparent 43.34%);
+}
+
+.content-linear.down-right {
+    background: linear-gradient(-4deg, #f44336 43%, transparent 43.34%);
+}
+
+.content-linear.down-right.red-gr {
+    background: linear-gradient(-4deg, #f44336 43%, transparent 43.34%);
+}
+
+.content-linear.down-right.pink-gr {
+    background: linear-gradient(-4deg, #E91E63 43%, transparent 43.34%);
+}
+
+.content-linear.down-right.purple-gr {
+    background: linear-gradient(-4deg, #9C27B0 43%, transparent 43.34%);
+}
+
+.content-linear.down-right.deep-purple-gr {
+    background: linear-gradient(-4deg, #673AB7 43%, transparent 43.34%);
+}
+
+.content-linear.down-right.indigo-gr {
+    background: linear-gradient(-4deg, #3F51B5 43%, transparent 43.34%);
+}
+
+.content-linear.down-right.blue-gr {
+    background: linear-gradient(-4deg, #2196F3 43%, transparent 43.34%);
+}
+
+.content-linear.down-right.light-blue-gr {
+    background: linear-gradient(-4deg, #03A9F4 43%, transparent 43.34%);
+}
+
+.content-linear.down-right.cyan-gr {
+    background: linear-gradient(-4deg, #00BCD4 43%, transparent 43.34%);
+}
+
+.content-linear.down-right.teal-gr {
+    background: linear-gradient(-4deg, #009688 43%, transparent 43.34%);
+}
+
+.content-linear.down-right.green-gr {
+    background: linear-gradient(-4deg, #4CAF50 43%, transparent 43.34%);
+}
+
+.content-linear.down-right.light-green-gr {
+    background: linear-gradient(-4deg, #8BC34A 43%, transparent 43.34%);
+}
+
+.content-linear.down-right.lime-gr {
+    background: linear-gradient(-4deg, #CDDC39 43%, transparent 43.34%);
+}
+
+.content-linear.down-right.yellow-gr {
+    background: linear-gradient(-4deg, #FFEB3B 43%, transparent 43.34%);
+}
+
+.content-linear.down-right.amber-gr {
+    background: linear-gradient(-4deg, #FFC107 43%, transparent 43.34%);
+}
+
+.content-linear.down-right.orange-gr {
+    background: linear-gradient(-4deg, #FF9800 43%, transparent 43.34%);
+}
+
+.content-linear.down-right.deep-orange-gr {
+    background: linear-gradient(-4deg, #FF5722 43%, transparent 43.34%);
+}
+
+.content-linear.down-right.brown-gr {
+    background: linear-gradient(-4deg, #795548 43%, transparent 43.34%);
+}
+
+.content-linear.down-right.grey-gr {
+    background: linear-gradient(-4deg, #9E9E9E 43%, transparent 43.34%);
+}
+
+.content-linear.down-right.blue-grey-gr {
+    background: linear-gradient(-4deg, #607D8B 43%, transparent 43.34%);
+}
+
+.content-linear.down-right.black-gr {
+    background: linear-gradient(-4deg, #000000 43%, transparent 43.34%);
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+/* label color */
+.input-field label {
+    color: #9e9e9e !important;
+}
+/* label focus color */
+.input-field input:focus + label, .input-field textarea:focus + label {
+    color: #2196f3 !important;
+}
+
+.input-field input:focus, .input-field textarea:focus {
+    border-bottom: 1px solid #2196f3 !important;
+    box-shadow: 0 1px 0 0 #2196f3 !important;
+}
+/* valid color */
+.input-field input.valid, .input-field textarea:valid {
+    border-bottom: 1px solid #00e676;
+    box-shadow: 0 1px 0 0 #00e676;
+}
+/* invalid color */
+.input-field input.invalid, .input-field textarea:invalid {
+    border-bottom: 1px solid #2196f3 !important;
+    box-shadow: 0 1px 0 0 #2196f3 !important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #2196f3 !important;
+}
+
+.friend-search {
+    width: 98% !important;
+    border-bottom: 0 !important;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12) !important;
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+}
+
+input[type="search"]:focus {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12) !important;
+    border-bottom: 0 !important;
+}
+
+.input-field input[type=search] {
+    padding-left: 60px;
+    width: calc(100% - 60px);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+.short-news {
+    height: 100px;
+    overflow: hidden;
+    transition: height 0.3s;
+}
+.short-news img, .card-reveal img {
+    width: 100%;
+}
+
+.news-text p {
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+.news-text li {
+    list-style-type: disc !important;
+    margin-left: 20px !important;
+}
+
+.news-text h1, .news-text h2, .news-text h3, .short-news h1, .short-news h2, .short-news h3 {
+    font-size: 34px;
+    line-height: 40px;
+    margin: 24px 0;
+    margin-top: 48px;
+    font-weight: 400;
+    color: #424242 !important;
+}
+
+.news-text h4, .news-text h5, .news-text h6, .short-news h4, .short-news h5, .short-news h6    {
+    font-size: 34px;
+    line-height: 40px;
+    margin: 24px 0;
+    margin-top: 48px;
+    font-weight: 400;
+    color: #424242 !important;
+}
+
+.news-full {
+    height: 250px;
+}
+
+.news-full pre {
+    border: none !important;
+}
+.news-full img {
+    height: inherit;
+    object-fit: cover;
+}
+
+.news-text p {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+    /*text-indent: 20px; ÃÂÃÂ±ÃÂ·ÃÂ°Ã‘â€ */
+}
+.news-text {
+    font-size: 16px;
+}
+
+.news-text h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.news-text iframe, .preview iframe  {
+    display: block;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.news-text img, .preview img  {
+    display: block;
+    max-width: 100%;
+    margin: 10px auto;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.news-row {
+    margin-bottom: 5px !important;
+}
+
+.opacity-black {
+    width: 100%;
+    font-size: 20px !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0px !important;
+}
+
+.menu-item {
+    display: flex !important;
+    padding: 5px !important;
+    width: 100% !important;
+    height: 34px !important;
+    line-height: 26px !important;
+    transition: 0.3s all !important;
+    border-radius: 2px !important;
+}
+
+.menu-item i {
+    margin-right: 10px;
+}
+
+.container {
+    width: 89%
+}
+
+.card-action-new-panel .btn:hover, .card-action-new-panel .btn-large:hover, .card-action-new-panel .btn-floating:hover {
+    background-color: #f5f5f5 !important;
+}
+
+.card-action-new-panel .btn {
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card-action-new-panel {
+    padding: 10px !important;
+}
+.card-action-new-panel label {
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+.search-container {
+    width: 30%;
+    margin-top: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+    .search-container {
+        width: 90% !important;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 601px) {
+    .search-container {
+        width: 60% !important;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 1601px) and (min-width: 1201px) {
+    .search-container {
+        width: 45% !important;
+    }
+}
+
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #e1e1e1;
+    width: 100%;
+}
+
+.fill.red {
+     fill: #F44336 !important
+ }
+.fill.red.fill.lighten-5 {
+    fill: #FFEBEE !important
+}
+.fill.red.fill.lighten-4 {
+    fill: #FFCDD2 !important
+}
+.fill.red.fill.lighten-3 {
+    fill: #EF9A9A !important
+}
+.fill.red.fill.lighten-2 {
+    fill: #E57373 !important
+}
+.fill.red.fill.lighten-1 {
+    fill: #EF5350 !important
+}
+.fill.red.fill.darken-1 {
+    fill: #E53935 !important
+}
+.fill.red.fill.darken-2 {
+    fill: #D32F2F !important
+}
+.fill.red.fill.darken-3 {
+    fill: #C62828 !important
+}
+.fill.red.fill.darken-4 {
+    fill: #B71C1C !important
+}
+.fill.red.fill.accent-1 {
+    fill: #FF8A80 !important
+}
+.fill.red.fill.accent-2 {
+    fill: #FF5252 !important
+}
+.fill.red.fill.accent-3 {
+    fill: #FF1744 !important
+}
+.fill.red.fill.accent-4 {
+    fill: #D50000 !important
+}
+.fill.pink {
+    fill: #e91e63 !important
+}
+.fill.pink.fill.lighten-5 {
+    fill: #fce4ec !important
+}
+.fill.pink.fill.lighten-4 {
+    fill: #f8bbd0 !important
+}
+.fill.pink.fill.lighten-3 {
+    fill: #f48fb1 !important
+}
+.fill.pink.fill.lighten-2 {
+    fill: #f06292 !important
+}
+.fill.pink.fill.lighten-1 {
+    fill: #ec407a !important
+}
+.fill.pink.fill.darken-1 {
+    fill: #d81b60 !important
+}
+.fill.pink-text.fill.text-darken-2 {
+    color: #c2185b !important
+}
+.fill.pink.fill.darken-3 {
+    fill: #ad1457 !important
+}
+.fill.pink.fill.darken-4 {
+    fill: #880e4f !important
+}
+.fill.pink.fill.accent-1 {
+    fill: #ff80ab !important
+}
+.fill.pink.fill.accent-2 {
+    fill: #ff4081 !important
+}
+.fill.pink.fill.accent-3 {
+    fill: #f50057 !important
+}
+.fill.pink.fill.accent-4 {
+    fill: #c51162 !important
+}
+.fill.purple {
+    fill: #9c27b0 !important
+}
+.fill.purple.fill.lighten-5 {
+    fill: #f3e5f5 !important
+}
+.fill.purple.fill.lighten-4 {
+    fill: #e1bee7 !important
+}
+.fill.purple.fill.lighten-3 {
+    fill: #ce93d8 !important
+}
+.fill.purple.fill.lighten-2 {
+    fill: #ba68c8 !important
+}
+.fill.purple.fill.lighten-1 {
+    fill: #ab47bc !important
+}
+.fill.purple.fill.darken-1 {
+    fill: #8e24aa !important
+}
+.fill.purple.fill.darken-2 {
+    fill: #7b1fa2 !important
+}
+.fill.purple.fill.darken-3 {
+    fill: #6a1b9a !important
+}
+.fill.purple.fill.darken-4 {
+    fill: #4a148c !important
+}
+.fill.purple.fill.accent-1 {
+    fill: #ea80fc !important
+}
+.fill.purple.fill.accent-2 {
+    fill: #e040fb !important
+}
+.fill.purple.fill.accent-3 {
+    fill: #d500f9 !important
+}
+.fill.purple.fill.accent-4 {
+    fill: #a0f !important
+}
+.fill.deep-purple {
+    fill: #673ab7 !important
+}
+.fill.deep-purple.fill.lighten-5 {
+    fill: #ede7f6 !important
+}
+.fill.deep-purple.fill.lighten-4 {
+    fill: #d1c4e9 !important
+}
+.fill.deep-purple.fill.lighten-3 {
+    fill: #b39ddb !important
+}
+.fill.deep-purple.fill.lighten-2 {
+    fill: #9575cd !important
+}
+.fill.deep-purple.fill.lighten-1 {
+    fill: #7e57c2 !important
+}
+.fill.deep-purple.fill.darken-1 {
+    fill: #5e35b1 !important
+}
+.fill.deep-purple.fill.darken-2 {
+    fill: #512da8 !important
+}
+.fill.deep-purple.fill.darken-3 {
+    fill: #4527a0 !important
+}
+.fill.deep-purple.fill.darken-4 {
+    fill: #311b92 !important
+}
+.fill.deep-purple.fill.accent-1 {
+    fill: #b388ff !important
+}
+.fill.deep-purple.fill.accent-2 {
+    fill: #7c4dff !important
+}
+.fill.deep-purple.fill.accent-3 {
+    fill: #651fff !important
+}
+.fill.deep-purple.fill.accent-4 {
+    fill: #6200ea !important
+}
+.fill.indigo {
+    fill: #3f51b5 !important
+}
+.fill.indigo.fill.lighten-5 {
+    fill: #e8eaf6 !important
+}
+.fill.indigo.fill.lighten-4 {
+    fill: #c5cae9 !important
+}
+.fill.indigo.fill.lighten-3 {
+    fill: #9fa8da !important
+}
+.fill.indigo.fill.lighten-2 {
+    fill: #7986cb !important
+}
+.fill.indigo.fill.lighten-1 {
+    fill: #5c6bc0 !important
+}
+.fill.indigo.fill.darken-1 {
+    fill: #3949ab !important
+}
+.fill.indigo.fill.darken-2 {
+    fill: #303f9f !important
+}
+.fill.indigo.fill.darken-3 {
+    fill: #283593 !important
+}
+.fill.indigo.fill.darken-4 {
+    fill: #1a237e !important
+}
+.fill.indigo.fill.accent-1 {
+    fill: #8c9eff !important
+}
+.fill.indigo.fill.accent-2 {
+    fill: #536dfe !important
+}
+.fill.indigo.fill.accent-3 {
+    fill: #3d5afe !important
+}
+.fill.indigo.fill.accent-4 {
+    fill: #304ffe !important
+}
+.fill.blue {
+    fill: #2196F3 !important
+}
+.fill.blue.fill.lighten-5 {
+    fill: #E3F2FD !important
+}
+.fill.blue.fill.lighten-4 {
+    fill: #BBDEFB !important
+}
+.fill.blue.fill.lighten-3 {
+    fill: #90CAF9 !important
+}
+.fill.blue.fill.lighten-2 {
+    fill: #64B5F6 !important
+}
+.fill.blue.fill.lighten-1 {
+    fill: #42A5F5 !important
+}
+.fill.blue.fill.darken-1 {
+    fill: #1E88E5 !important
+}
+.fill.blue.fill.darken-2 {
+    fill: #1976D2 !important
+}
+.fill.blue.fill.darken-3 {
+    fill: #1565C0 !important
+}
+.fill.blue.fill.darken-4 {
+    fill: #0D47A1 !important
+}
+.fill.blue.fill.accent-1 {
+    fill: #82B1FF !important
+}
+.fill.blue.fill.accent-2 {
+    fill: #448AFF !important
+}
+.fill.blue.fill.accent-3 {
+    fill: #2979FF !important
+}
+.fill.blue.fill.accent-4 {
+    fill: #2962FF !important
+}
+.fill.light-blue {
+    fill: #03a9f4 !important
+}
+.fill.light-blue.fill.lighten-5 {
+    fill: #e1f5fe !important
+}
+.fill.light-blue.fill.lighten-4 {
+    fill: #b3e5fc !important
+}
+.fill.light-blue.fill.lighten-3 {
+    fill: #81d4fa !important
+}
+.fill.light-blue.fill.lighten-2 {
+    fill: #4fc3f7 !important
+}
+.fill.light-blue.fill.lighten-1 {
+    fill: #29b6f6 !important
+}
+.fill.light-blue.fill.darken-1 {
+    fill: #039be5 !important
+}
+.fill.light-blue.fill.darken-2 {
+    fill: #0288d1 !important
+}
+.fill.light-blue.fill.darken-3 {
+    fill: #0277bd !important
+}
+.fill.light-blue.fill.darken-4 {
+    fill: #01579b !important
+}
+.fill.light-blue.fill.accent-1 {
+    fill: #80d8ff !important
+}
+.fill.light-blue.fill.accent-2 {
+    fill: #40c4ff !important
+}
+.fill.light-blue.fill.accent-3 {
+    fill: #00b0ff !important
+}
+.fill.light-blue.fill.accent-4 {
+    fill: #0091ea !important
+}
+.fill.cyan {
+    fill: #00bcd4 !important
+}
+.fill.cyan.fill.lighten-5 {
+    fill: #e0f7fa !important
+}
+.fill.cyan.fill.lighten-4 {
+    fill: #b2ebf2 !important
+}
+.fill.cyan.fill.lighten-3 {
+    fill: #80deea !important
+}
+.fill.cyan.fill.lighten-2 {
+    fill: #4dd0e1 !important
+}
+.fill.cyan.fill.lighten-1 {
+    fill: #26c6da !important
+}
+.fill.cyan.fill.darken-1 {
+    fill: #00acc1 !important
+}
+.fill.cyan.fill.darken-2 {
+    fill: #0097a7 !important
+}
+.fill.cyan.fill.darken-3 {
+    fill: #00838f !important
+}
+.fill.cyan.fill.darken-4 {
+    fill: #006064 !important
+}
+.fill.cyan.fill.accent-1 {
+    fill: #84ffff !important
+}
+.fill.cyan.fill.accent-2 {
+    fill: #18ffff !important
+}
+.fill.cyan.fill.accent-3 {
+    fill: #00e5ff !important
+}
+.fill.cyan.fill.accent-4 {
+    fill: #00b8d4 !important
+}
+.fill.teal {
+    fill: #009688 !important
+}
+.fill.teal.fill.lighten-5 {
+    fill: #e0f2f1 !important
+}
+.fill.teal.fill.lighten-4 {
+    fill: #b2dfdb !important
+}
+.fill.teal.fill.lighten-3 {
+    fill: #80cbc4 !important
+}
+.fill.teal.fill.lighten-2 {
+    fill: #4db6ac !important
+}
+.fill.teal.fill.lighten-1 {
+    fill: #26a69a !important
+}
+.fill.teal.fill.darken-1 {
+    fill: #00897b !important
+}
+.fill.teal.fill.darken-2 {
+    fill: #00796b !important
+}
+.fill.teal.fill.darken-3 {
+    fill: #00695c !important
+}
+.fill.teal.fill.darken-4 {
+    fill: #004d40 !important
+}
+.fill.teal.fill.accent-1 {
+    fill: #a7ffeb !important
+}
+.fill.teal.fill.accent-2 {
+    fill: #64ffda !important
+}
+.fill.teal.fill.accent-3 {
+    fill: #1de9b6 !important
+}
+.fill.teal.fill.accent-4 {
+    fill: #00bfa5 !important
+}
+.fill.green {
+    fill: #4CAF50 !important
+}
+.fill.green.fill.lighten-5 {
+    fill: #E8F5E9 !important
+}
+.fill.green.fill.lighten-4 {
+    fill: #C8E6C9 !important
+}
+.fill.green.fill.lighten-3 {
+    fill: #A5D6A7 !important
+}
+.fill.green.fill.lighten-2 {
+    fill: #81C784 !important
+}
+.fill.green.fill.lighten-1 {
+    fill: #66BB6A !important
+}
+.fill.green.fill.darken-1 {
+    fill: #43A047 !important
+}
+.fill.green.fill.darken-2 {
+    fill: #388E3C !important
+}
+.fill.green.fill.darken-3 {
+    fill: #2E7D32 !important
+}
+.fill.green.fill.darken-4 {
+    fill: #1B5E20 !important
+}
+.fill.green.fill.accent-1 {
+    fill: #B9F6CA !important
+}
+.fill.green.fill.accent-2 {
+    fill: #69F0AE !important
+}
+.fill.green.fill.accent-3 {
+    fill: #00E676 !important
+}
+.fill.green.fill.accent-4 {
+    fill: #00C853 !important
+}
+.fill.light-green {
+    fill: #8bc34a !important
+}
+.fill.light-green.fill.lighten-5 {
+    fill: #f1f8e9 !important
+}
+.fill.light-green.fill.lighten-4 {
+    fill: #dcedc8 !important
+}
+.fill.light-green.fill.lighten-3 {
+    fill: #c5e1a5 !important
+}
+.fill.light-green.fill.lighten-2 {
+    fill: #aed581 !important
+}
+.fill.light-green.fill.lighten-1 {
+    fill: #9ccc65 !important
+}
+.fill.light-green.fill.darken-1 {
+    fill: #7cb342 !important
+}
+.fill.light-green.fill.darken-2 {
+    fill: #689f38 !important
+}
+.fill.light-green.fill.darken-3 {
+    fill: #558b2f !important
+}
+.fill.light-green.fill.darken-4 {
+    fill: #33691e !important
+}
+.fill.light-green.fill.accent-1 {
+    fill: #ccff90 !important
+}
+.fill.light-green.fill.accent-2 {
+    fill: #b2ff59 !important
+}
+.fill.light-green.fill.accent-3 {
+    fill: #76ff03 !important
+}
+.fill.light-green.fill.accent-4 {
+    fill: #64dd17 !important
+}
+.fill.lime {
+    fill: #cddc39 !important
+}
+.fill.lime.fill.lighten-5 {
+    fill: #f9fbe7 !important
+}
+.fill.lime.fill.lighten-4 {
+    fill: #f0f4c3 !important
+}
+.fill.lime.fill.lighten-3 {
+    fill: #e6ee9c !important
+}
+.fill.lime.fill.lighten-2 {
+    fill: #dce775 !important
+}
+.fill.lime.fill.lighten-1 {
+    fill: #d4e157 !important
+}
+.fill.lime.fill.darken-1 {
+    fill: #c0ca33 !important
+}
+.fill.lime.fill.darken-2 {
+    fill: #afb42b !important
+}
+.fill.lime.fill.darken-3 {
+    fill: #9e9d24 !important
+}
+.fill.lime.fill.darken-4 {
+    fill: #827717 !important
+}
+.fill.lime.fill.accent-1 {
+    fill: #f4ff81 !important
+}
+.fill.lime.fill.accent-2 {
+    fill: #eeff41 !important
+}
+.fill.lime.fill.accent-3 {
+    fill: #c6ff00 !important
+}
+.fill.lime.fill.accent-4 {
+    fill: #aeea00 !important
+}
+.fill.yellow {
+    fill: #ffeb3b !important
+}
+.fill.yellow.fill.lighten-5 {
+    fill: #fffde7 !important
+}
+.fill.yellow.fill.lighten-4 {
+    fill: #fff9c4 !important
+}
+.fill.yellow.fill.lighten-3 {
+    fill: #fff59d !important
+}
+.fill.yellow.fill.lighten-2 {
+    fill: #fff176 !important
+}
+.fill.yellow.fill.lighten-1 {
+    fill: #ffee58 !important
+}
+.fill.yellow.fill.darken-1 {
+    fill: #fdd835 !important
+}
+.fill.yellow.fill.darken-2 {
+    fill: #fbc02d !important
+}
+.fill.yellow.fill.darken-3 {
+    fill: #f9a825 !important
+}
+.fill.yellow.fill.darken-4 {
+    fill: #f57f17 !important
+}
+.fill.yellow.fill.accent-1 {
+    fill: #ffff8d !important
+}
+.fill.yellow.fill.accent-2 {
+    fill: #ff0 !important
+}
+.fill.yellow.fill.accent-3 {
+    fill: #ffea00 !important
+}
+.fill.yellow.fill.accent-4 {
+    fill: #ffd600 !important
+}
+.fill.amber {
+    fill: #ffc107 !important
+}
+.fill.amber.fill.lighten-5 {
+    fill: #fff8e1 !important
+}
+.fill.amber.fill.lighten-4 {
+    fill: #ffecb3 !important
+}
+.fill.amber.fill.lighten-3 {
+    fill: #ffe082 !important
+}
+.fill.amber.fill.lighten-2 {
+    fill: #ffd54f !important
+}
+.fill.amber.fill.lighten-1 {
+    fill: #ffca28 !important
+}
+.fill.amber.fill.darken-1 {
+    fill: #ffb300 !important
+}
+.fill.amber.fill.darken-2 {
+    fill: #ffa000 !important
+}
+.fill.amber.fill.darken-3 {
+    fill: #ff8f00 !important
+}
+.fill.amber.fill.darken-4 {
+    fill: #ff6f00 !important
+}
+.fill.amber.fill.accent-1 {
+    fill: #ffe57f !important
+}
+.fill.amber.fill.accent-2 {
+    fill: #ffd740 !important
+}
+.fill.amber.fill.accent-3 {
+    fill: #ffc400 !important
+}
+.fill.amber.fill.accent-4 {
+    fill: #ffab00 !important
+}
+.fill.orange {
+    fill: #ff9800 !important
+}
+.fill.orange-text {
+    color: #ff9800 !important
+}
+.fill.orange.fill.lighten-5 {
+    fill: #fff3e0 !important
+}
+.fill.orange.fill.lighten-4 {
+    fill: #ffe0b2 !important
+}
+.fill.orange.fill.lighten-3 {
+    fill: #ffcc80 !important
+}
+.fill.orange.fill.lighten-2 {
+    fill: #ffb74d !important
+}
+.fill.orange.fill.lighten-1 {
+    fill: #ffa726 !important
+}
+.fill.orange.fill.darken-1 {
+    fill: #fb8c00 !important
+}
+.fill.orange.fill.darken-2 {
+    fill: #f57c00 !important
+}
+.fill.orange.fill.darken-3 {
+    fill: #ef6c00 !important
+}
+.fill.orange.fill.darken-4 {
+    fill: #e65100 !important
+}
+.fill.orange.fill.accent-1 {
+    fill: #ffd180 !important
+}
+.fill.orange.fill.accent-2 {
+    fill: #ffab40 !important
+}
+.fill.orange.fill.accent-3 {
+    fill: #ff9100 !important
+}
+.fill.orange.fill.accent-4 {
+    fill: #ff6d00 !important
+}
+.fill.deep-orange {
+    fill: #ff5722 !important
+}
+.fill.deep-orange.fill.lighten-5 {
+    fill: #fbe9e7 !important
+}
+.fill.deep-orange.fill.lighten-4 {
+    fill: #ffccbc !important
+}
+.fill.deep-orange.fill.lighten-3 {
+    fill: #ffab91 !important
+}
+.fill.deep-orange.fill.lighten-2 {
+    fill: #ff8a65 !important
+}
+.fill.deep-orange.fill.lighten-1 {
+    fill: #ff7043 !important
+}
+.fill.deep-orange.fill.darken-1 {
+    fill: #f4511e !important
+}
+.fill.deep-orange.fill.darken-2 {
+    fill: #e64a19 !important
+}
+.fill.deep-orange.fill.darken-3 {
+    fill: #d84315 !important
+}
+.fill.deep-orange.fill.darken-4 {
+    fill: #bf360c !important
+}
+.fill.deep-orange.fill.accent-1 {
+    fill: #ff9e80 !important
+}
+.fill.deep-orange.fill.accent-2 {
+    fill: #ff6e40 !important
+}
+.fill.deep-orange.fill.accent-3 {
+    fill: #ff3d00 !important
+}
+.fill.deep-orange.fill.accent-4 {
+    fill: #dd2c00 !important
+}
+.fill.brown {
+    fill: #795548 !important
+}
+.fill.brown.fill.lighten-5 {
+    fill: #efebe9 !important
+}
+.fill.brown.fill.lighten-4 {
+    fill: #d7ccc8 !important
+}
+.fill.brown.fill.lighten-3 {
+    fill: #bcaaa4 !important
+}
+.fill.brown.fill.lighten-2 {
+    fill: #a1887f !important
+}
+.fill.brown.fill.lighten-1 {
+    fill: #8d6e63 !important
+}
+.fill.brown.fill.darken-1 {
+    fill: #6d4c41 !important
+}
+.fill.brown.fill.darken-2 {
+    fill: #5d4037 !important
+}
+.fill.brown.fill.darken-3 {
+    fill: #4e342e !important
+}
+.fill.brown.fill.darken-4 {
+    fill: #3e2723 !important
+}
+.fill.blue-grey {
+    fill: #607d8b !important
+}
+.fill.blue-grey.fill.lighten-5 {
+    fill: #eceff1 !important
+}
+.fill.blue-grey.fill.lighten-4 {
+    fill: #cfd8dc !important
+}
+.fill.blue-grey.fill.lighten-3 {
+    fill: #b0bec5 !important
+}
+.fill.blue-grey.fill.lighten-2 {
+    fill: #90a4ae !important
+}
+.fill.blue-grey.fill.lighten-1 {
+    fill: #78909c !important
+}
+.fill.blue-grey.fill.darken-1 {
+    fill: #546e7a !important
+}
+.fill.blue-grey.fill.darken-2 {
+    fill: #455a64 !important
+}
+.fill.blue-grey.fill.darken-3 {
+    fill: #37474f !important
+}
+.fill.blue-grey.fill.darken-4 {
+    fill: #263238 !important
+}
+.fill.grey {
+    fill: #9e9e9e !important
+}
+.fill.grey.fill.lighten-5 {
+    fill: #fafafa !important
+}
+.fill.grey.fill.lighten-4 {
+    fill: #f5f5f5 !important
+}
+.fill.grey.fill.lighten-3 {
+    fill: #eee !important
+}
+.fill.grey.fill.lighten-2 {
+    fill: #e0e0e0 !important
+}
+.fill.grey.fill.lighten-1 {
+    fill: #bdbdbd !important
+}
+.fill.grey.fill.darken-1 {
+    fill: #757575 !important
+}
+.fill.grey.fill.darken-2 {
+    fill: #616161 !important
+}
+.fill.grey.fill.darken-3 {
+    fill: #424242 !important
+}
+.fill.grey.fill.darken-4 {
+    fill: #212121 !important
+}
+.fill.black {
+    fill: #000 !important
+}
+.fill.white {
+    fill: #fff !important
+}
+
+::-moz-selection    { background: #b3d4fc; text-shadow:none }
+::selection         { background: #b3d4fc; text-shadow:none }
+
+::-webkit-scrollbar              { width: 6px; height: 6px; }
+::-webkit-scrollbar-track        { background-color: #f1f1f1; border-radius: 20px;  }
+::-webkit-scrollbar-thumb        { background-color: #b3b3b3; -webkit-appearance: none;  border-radius:20px; }
+::-webkit-scrollbar-thumb:hover  { background-color: #03A9F4; }
+
+#dropdown-category::-webkit-scrollbar-track        { background-color: #2196F3; border-radius: 20px;  }
